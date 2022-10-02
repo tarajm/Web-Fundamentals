@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Liking Likes II Part
+		</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>	
+	<body>
+        <div class="navbar">
+            <h1>Network</h1>
+        </div>
+        <div class="feedTitle">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="mainContainer">
+            <div class="profile">
+                <div class="userInfo">
+                    <img class="avatar" src="./user-circle.png" alt="avatar">
+                    <a href="#">Add an avatar</a>
+                    <h2 class="avatarTitle" >James Doe</h2>
+                </div>
+            </div>
+            <div class="feed">
+                <div class="cardContainer">
+                    <div class="upline">
+                        <h2>Neil M</h2>
+                        <div>
+                            <span class="changeNumA" id="num">9</span> likes(s)
+                            <button onclick="addLikes(this)" class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        I just set up this new discord bot, let me know what you all think. <a href="#">link</a>
+                    </div>
+                </div>
+                <div class="cardContainer">
+                    <div class="upline">
+                        <h2>Nichole K</h2>
+                        <div>
+                            <span class="changeNumA2" id="otherNum">12</span> likes(s)
+                            <button onclick="addLikesTwo(this)" class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        Just finished my <a href="#">next comic</a>, check it out.
+                    </div>
+                </div>
+                <div class="cardContainer">
+                    <div class="upline">
+                        <h2>Jim R</h2>
+                        <div>
+                            <span class="changeNum" id="num3">9</span> likes(s)
+                            <button onclick="addLikes3(this)" class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div>
+                        I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./index.js"></script>    
+    </body>
+</html>    

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather Massan_Tara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <!--Navbar-->
+    <div class="nav">
+        <div class="nav-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li id="loading1" onclick="weatherReport()"><a href="#">Burbank</a></li>
+                <li id="loading2" onclick="weatherReport()"><a href="#">Chicago</a></li>
+                <li id="loading3" onclick="weatherReport()"><a href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Main Header-->
+    <div class="main-header">
+        <div class="header-container">
+            <h1 class="header-title">San Jose</h1>
+            <div>
+            <ul class="header-links">
+                <li>show temperature in</li>
+                <li>
+                    <select class="dropdown-header" name="dropdown" id="dropdown">
+                        <option value="">°C</option>
+                        <option value="">°F</option>
+                        <!--NEED TO CREATE border between option and dropdown arrow-->
+                    </select>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="row">
+            <div class="card">
+                <h1 class="card-header">Today</h1>
+                <img class="card-img" src="some_rain.png" alt="some_rain">
+                some rain
+                <ul>
+                    <li class="temp1" id="t1">24°</li>
+                    <li class="temp2" id="t2">18°</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h1 class="card-header">Tomorrow</h1>
+                <img class="card-img" src="some_sun.png" alt="some_sun">
+                <p>some sun</p>
+                <ul>
+                    <li class="temp1" id="t3">27°</li>
+                    <li class="temp2" id="t4">19°</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h1 class="card-header">Friday</h1>
+                <img class="card-img" src="some_clouds.png" alt="some_clouds">
+                some clouds
+                <ul>
+                    <li class="temp1" id="t5">21°</li>
+                    <li class="temp2" id="t6">16°</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h1 class="card-header">Saturday</h1>
+                <img class="card-img" src="some_sun.png" alt="some_sun">
+                some sun
+                <ul>
+                    <li class="temp1" id="t7">26°</li>
+                    <li class="temp2" id="t8">21°</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <img class="footer-img"  src="cookie.png" alt="cookie">
+            <div class="footer-content">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide
+                social media features and to <br> analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="footer-button" onclick="accept()">I Accept</button> 
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

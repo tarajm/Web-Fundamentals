@@ -1,0 +1,153 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav    {
+    height: 100px;
+    background-color: #9fc5f8;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links  {
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    font-size: larger;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-header {
+    height: 100px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.header-container, .header-links, .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-links{
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+    font-weight: 800;
+    display: flex;
+    margin: 3px;
+
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
+.dropdown-header {
+    font-weight: 700;
+    font-size: large;
+    width: 50px;  
+}
+
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #eeeeee;
+}
+
+.card-header {
+    margin: 0 auto;
+}
+
+.card-img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card ul    {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style-type: none;  
+}
+
+.temp1 {
+    color: red;
+    font-weight: 600;
+}
+
+.temp2  {
+    color: blue;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    justify-content: space-around;
+    border: 3px solid black;
+    background-color: #eeeeee;
+    position: fixed;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-button {
+    background-color: #9fc5f8;;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+}

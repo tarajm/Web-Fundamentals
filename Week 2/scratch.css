@@ -1,0 +1,25 @@
+.container {
+  width: 960px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: plum;
+  display: flex;
+  align-items: center;
+}
+
+.col  {
+  background-color: beige;
+  width: 250px;
+  padding: 10px;
+}
+
+.col-2  {
+  background-color: teal;
+  width: 400px;
+  padding: 10px;
+  border: 10px solid black;
+}
+
+.col p, .col-2 p  {
+  font-size: 1.2em;
+}

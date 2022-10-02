@@ -1,0 +1,82 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+}
+
+.container  {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.title  {
+    text-align: center;
+    padding: 10px;
+}
+
+.usercard{
+    flex:1;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+    height: 200px;
+}
+
+.image  {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.username   {
+    margin-top: 20px;
+}
+
+.feed-info  {
+    flex: 3;
+    margin-right: 80px;
+}
+
+.box {
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+
+.row    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.like-button    {
+    background-color: #ffd966;
+    padding: 5px 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 1.2em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+

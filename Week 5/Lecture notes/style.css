@@ -1,0 +1,74 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.feedTitle{
+    text-align: center;
+    padding: 20px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    flex:2;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.feed{
+    flex:7;
+    margin-right: 70px;
+}
+
+.userInfo{
+    border: black 2px solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.avatarTitle {
+    margin-top: 30px;
+}
+
+.cardContainer {
+    margin-bottom: 20px;
+    border: black 2px solid;
+    padding: 20px;
+}
+
+.upline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-align:center;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(231, 199, 55);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-weight: bold;
+    margin-top: 20px;
+}

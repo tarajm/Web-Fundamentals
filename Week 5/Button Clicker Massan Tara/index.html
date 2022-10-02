@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title"> Dojonary</h1>
+            <form class="top-form" id="form">
+                <input type="search" id="query" name="search" placeholder="Search" style="height:20px; width:350px">
+            </form>
+            <button class="top-button" onclick="login(this)">Login</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!--LEFT COLUMN-->
+            <div class="flex-2">
+                <div class="box-definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="button-likes" onclick="message()">13 likes</button>
+                    </div>
+                    <p class="more-info">A practitioner skilled in the <a href="#">Japanese</a> art 
+                    <br>of <a href="#">ninjutsu</a></p>
+                </div>
+                <div class="box-definition">
+                    <div class="left">
+                        <h1>ninja</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="button-likes" onclick="message()">37 likes</button>
+                    </div>
+                    <p class="more-info"> A <a href="#">programmer</a> who breaks down <br>problems with <a href="#">zen-</a>like focus</p>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="right">
+                    <h2>Dojonary is <br> defined by <b>YOU</b></h2>
+                    <button class="button-right" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="scripts.js"></script>    
+</body>
+</html>

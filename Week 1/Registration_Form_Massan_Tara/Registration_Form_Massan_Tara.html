@@ -1,0 +1,82 @@
+FIXED After reviewing solution
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+        <div>
+            First Name &nbsp;* &nbsp;&nbsp; <input type="text" name="first_name">
+        </div>
+        <br>
+        <div>
+            Last Name &nbsp;* &nbsp;&nbsp; <input type="text" name="last_name">
+        </div>
+        <br>
+        <div>
+            Email Address &nbsp;* &nbsp;&nbsp; <input type="text" name="email_address">
+        </div>
+        <br>
+        <div>
+            Password &nbsp;* &nbsp;&nbsp; <input type="password" name="'password">
+        </div>
+        <br>
+        <div>
+            Confirm Password &nbsp;* &nbsp;&nbsp; <input type="password" name="'confirm_password">
+        </div>
+        <br>
+        <div>
+            Birthday: &nbsp; <input type="date" name="dob">
+        </div>  
+        <br>
+        <div>
+            Gender Identity:
+            <br>
+            <input type="radio" name="male" value="male" id="male">
+            <label for="Male">Male</label>
+            <input type="radio" name="female" value="female" id="female">
+            <label for="Female">Female</label>
+            <input type="radio" name="non_binary" value="non_binary" id="non_binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="no_answer" value="no_answer" id="no_answer">
+            <label for="no-answer">I prefer not to answer</label>
+        </div>
+        <br>
+        <div>
+            A short description about myself:   
+        </div>
+        <br> 
+        <div>
+            <textarea name="about_me" id="" cols="35" rows="4"></textarea>  
+        </div>    
+        <br>
+        <div>
+            Favorite Language: &nbsp; 
+            <select name="language">
+            <option>Python</option>
+            <option>JavaScript</option>
+            <option>I'm lost! Don't ask me!</option>
+            <option>HTML</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="yes" id="yes">
+            <label for="yes">Yes, I would like to recieve periodic email updates</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <br>
+        <div>
+            * Indicates a required field
+        </div>
+    </body>
+</html>

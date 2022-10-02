@@ -1,0 +1,29 @@
+h1  {
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+
+span {
+    color: rgb(14, 238, 238);
+
+}
+
+h2  {
+    color: white;
+    background-color: rgb(85, 28, 85);
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+
+h3  {
+    color: black;
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+    padding: 10px;
+}
